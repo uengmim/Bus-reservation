@@ -1,0 +1,217 @@
+html, body {
+	font-size: 11px;
+	width: 100%;
+	height: 100%;
+	background: #efefef;
+}
+
+#wrapper {
+	padding: 0 1rem;
+}
+header {
+	display: flex;
+	align-items: center;
+	margin: 1rem;
+}
+#logo {
+	z-index: 998;
+ 	display: flex;
+ 	align-items: center;
+ 	margin-top: 1rem;
+ 	margin-left: 1rem;
+ 	flex-grow: 1;
+}
+#logo > i {
+	font-size: 3.5rem;
+	color: #6b75CA;
+}
+#logo > p {
+	font-size: 3.0rem;
+	font-weight: 500;
+	color: #6b75CA;
+}
+#menu_tap > i {
+	font-size: 2.3rem;
+	margin-right: 1rem;
+	margin-top: 1rem;
+	color: #888888;
+}
+
+/*		login_info 	*/
+#login_info {
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+	padding: 1rem;
+}
+#login_info > p#ment {
+	font-size: 1.2rem;
+	margin: 0.3rem;
+}
+#login_info > p#login_name {
+	font-size: 2.0rem;
+}
+/*		main		*/
+main {
+	margin : 0 1rem;
+}
+.cate_name {
+	font-size: 1.7rem;
+	font-weight: 400;
+	margin-bottom: 0.5rem;
+	margin-left: 0.5rem;
+}
+#qr {
+	margin-bottom: 2rem;
+}
+#qr_wrapper {
+	display: flex;
+	flex-direction: row;
+}
+#qr_wrapper > #qr_image_frame {
+	background: #FFF;
+	width: 20rem;
+	padding: 1rem;
+	margin-right: 1rem;
+	border-radius: 2rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#qr_wrapper > #qr_service_frame {
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+}
+#qr_wrapper > #qr_service_frame > li {
+	border-radius: 2rem;
+	border: 0.1rem solid #e3e8ee;	
+}
+#qr_wrapper > #qr_service_frame > #ticket_num_frame {
+	flex-grow: 2;
+	margin-bottom: 0.5rem;
+	background: #6B75CA;
+	color: #fff;
+	padding: 2rem 1rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+#qr_wrapper > #qr_service_frame > #ticket_num_frame > p {
+	font-size: 1.3rem;
+	font-weight: 400;
+}
+#qr_wrapper > #qr_service_frame > #ticket_num_frame > div {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	flex-grow: 1;
+}
+#qr_wrapper > #qr_service_frame > #ticket_num_frame #ticket_num  {
+	font-size: 8rem;
+}
+.count {
+	font-size: 2.0rem;
+	margin-bottom: 1rem;
+	margin-left: 0.5rem;
+}
+#qr_wrapper > #qr_service_frame > #ticket_add_frame {
+	flex-grow: 1;
+	margin-top: 0.5rem;
+	background: #fff;
+}
+#ticket_add_frame {
+	display: flex;
+	align-items: flex-end;
+	justify-content: flex-end;
+	cursor: pointer;
+	padding: 2rem 1rem 1rem 2rem;
+}
+#ticket_add_frame > p {
+	font-size: 1.5rem;
+	color: #888888;
+	font-weight: 400;
+}
+#ticket_add_frame > i {
+	font-size: 1.7rem;
+	color: #888888;
+}
+
+/*		Service		*/
+#service {
+	margin-bottom: 2rem;
+}
+#service_wrapper {
+	display: flex;
+}
+#service_wrapper > #waiting_num_frame {
+	background: #6b75CA;
+	border-radius: 2rem;
+	margin-right: 1rem;
+	flex-grow: 2;
+	padding: 1rem;
+	position: relative;
+}
+#waiting_num_frame > #waiting_loader {
+	position: absolute;
+	display: none;
+	opacity: 0;
+	top: 1rem;
+	right: 1.5rem;
+}
+#service_wrapper > #waiting_num_frame > p {
+	color: #fff;
+	font-size: 1.3rem;
+}
+#service_wrapper > #waiting_num_frame > div#waiting_num_position {
+	height: 100%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	flex-grow: 1;
+}
+#service_wrapper > #waiting_num_frame > div > #waiting_num {
+	font-size: 8rem;
+	color: #fff;
+}
+#service_wrapper > #reservation_frame {
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+}
+#service_wrapper > #reservation_frame > * {
+	flex-grow: 1;
+	background: #fff;
+	border-radius: 2rem;
+	padding: 1rem;
+}
+#service_wrapper > #reservation_frame > #waiting_refresh {
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+	margin-bottom: 0.5rem;
+}
+#service_wrapper > #reservation_frame > #waiting_refresh > i {
+	font-size: 3.0rem;
+	margin-right: 0.5rem;
+}
+#service_wrapper > #reservation_frame > #reservation {
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+	margin-top: 0.5rem;
+}
+#service_wrapper > #reservation_frame > #reservation > p {
+	font-size: 1.5rem;
+	margin-right: 0.5rem;
+}
+
+/*		notice 		*/
+#notice_frame {
+	padding: 1rem;
+	background: #fff;
+	border-radius: 2rem;
+}
+#notice_frame > p {
+	font-size: 1.2rem;
+}

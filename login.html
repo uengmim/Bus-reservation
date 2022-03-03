@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BUS STOP</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- icon -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+	<!-- Style -->
+	<link rel="stylesheet" type="text/css" href="contents/css/default.css">
+	<link rel="stylesheet" type="text/css" href="contents/css/login.css">
+	<!-- Font -->
+	<link rel="stylesheet" type="text/css" href="contents/font/Nanum.css">
+	<link rel="stylesheet" type="text/css" href="contents/font/Montserrat.css">
+</head>
+<body>
+<div id="wrapper">
+	<header>
+		<div id="logo">
+			<i class="material-icons">directions_bus</i>
+			<p class="en">BUS STOP</p>
+		</div>	
+	</header>
+	<main>
+		<div id="login_type">
+			<label for="type_student" style="margin-right: 0.5rem;">
+				<div class="type_box type_default">
+					<p class="en">Student</p>
+				</div>
+				<input type="radio" name="login_type" value="student" id="type_student" checked>
+			</label>
+			<label for="type_driver" style="margin-left: 0.5rem;">
+				<div class="type_box">
+					<p class="en">Driver</p>
+				</div>
+				<input type="radio" name="login_type" value="driver" id="type_driver">
+			</label>
+		</div>
+		<input type="text" name="" id="input_id" class="user_input en" placeholder="ID" autocomplete="off">
+		<input type="password" name="" id="input_pw" class="user_input en"
+		placeholder="PASSWORD" autocomplete="off">
+		<button class="en" id="user_login">LOGIN</button>
+		<p class="warning">회원정보가 없습니다.</p>
+	</main>
+	<div class="line"></div>
+	<footer>
+		<a href="join.html">JOIN US</a>
+	</footer>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="contents/js/urlParam.js"></script>
+<script type="text/javascript" src="contents/js/login_2.js"></script>
+</body>
+</html>

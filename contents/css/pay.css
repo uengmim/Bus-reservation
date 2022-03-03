@@ -1,0 +1,170 @@
+html, body {
+	font-size: 11px;
+	width: 100%;
+	height: 100%;
+	background: #efefef;
+}
+#wrapper {
+	padding: 0 1rem;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+main {
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+	margin: 0 2rem;
+}
+main > #comment {
+	margin-top: 1rem;
+}
+main > #comment > p {
+	font-size: 1.8rem;
+}
+#ticket_num_input {
+	margin-top: 2rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-end;
+	flex-grow: 1;
+}
+#ticket_num_input > input {
+	background: none;
+	border: none;
+	font-size: 2.0rem;
+	width: 5rem;
+	text-align: center;
+}
+#ticket_num_input > .line {
+	width: 5rem;
+	height: 0.2rem;
+}
+.line {
+	margin-top: 0.5rem;
+	background: #888888;
+}
+#price_frame {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+#price_frame > .price_element {
+	display: flex;
+	align-items: flex-end;
+	margin-top: 0.3rem;
+}
+.price_element > p.price_small {
+	font-size: 1.2rem;
+}
+.price_element > p.price_big {
+	font-size: 1.5rem;
+	font-weight: 700;
+	margin-left: 1rem;
+}
+footer {
+	padding: 1rem 1rem ;
+}
+footer > #pay_btn {
+	text-align: center;
+	color: #fff;
+	font-size: 1.3rem;
+	background: #32BE38;
+	border-radius: 1rem;
+	width: 100%;
+	padding: 1rem 0;
+	cursor: pointer;;
+}
+#pay_prompt {
+	opacity: 0.0;
+	display: none;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #88888880;
+	padding: 0 2rem;
+}
+#pay_prompt_frame {
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	background: #fff;
+	border-radius: 1.5rem;
+	width: 100%;
+	padding: 1rem;
+	margin: 0 1.5rem;
+}
+#pay_prompt_text {
+	flex-grow: 2;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#pay_num_frame {
+	display: flex;
+	align-items: flex-end;
+}
+#pay_num_frame > .pay_num {
+	font-size: 4rem; 
+}
+#pay_num_frame > .per {
+	font-size: 2.0rem;
+}
+#pay_num_text {
+	margin-top: 0.5rem;
+}
+#pay_num_text > p {
+	font-size: 1.3rem;
+}
+#pay_prompt_btn {
+	display: flex;
+	flex-direction: row;
+}
+#pay_prompt_btn > #ok {
+	background: #32BE38;
+	color: #fff;
+	border-radius: 50%;
+	padding: 0.2rem;
+	margin-right: 0.5rem;
+}
+#pay_prompt_btn i {
+	font-size: 3.0rem;
+}
+#pay_prompt_btn > #cancel {
+	padding: 0.2rem;	
+}
+
+#pay_result_frame {
+	display: none;
+	justify-content: center;
+	align-content: center;
+	opacity: 0;
+	background: #fff;
+	border-radius: 1.5rem;
+	margin: 1.5rem;
+	padding: 1rem;
+}
+#pay_result_frame > div {
+	display: flex;
+	align-items: flex-end;
+
+}
+#pay_result_frame .ticket_num {
+	font-size: 3.0rem;
+}
+#pay_result_frame .per {
+	font-size: 1.5rem;
+	margin-bottom: 0.3rem;
+}
+#pay_result_frame .result_text {
+	margin-left: 0.5rem;
+	font-size: 1.5rem;
+	margin-bottom: 0.3rem;
+}

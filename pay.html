@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BUS STOP</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- icon -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+	<!-- Style -->
+	<link rel="stylesheet" type="text/css" href="contents/css/default.css">
+	<link rel="stylesheet" type="text/css" href="contents/css/header.css">
+	<link rel="stylesheet" type="text/css" href="contents/css/pay.css">
+
+	<!-- Font -->
+	<link rel="stylesheet" type="text/css" href="contents/font/Nanum.css">
+	<link rel="stylesheet" type="text/css" href="contents/font/Montserrat.css">
+</head>
+<body>
+<div id="wrapper">
+	<header>
+		<div id="logo">
+			<i class="material-icons">directions_bus</i>
+			<p class="en">BUS STOP</p>
+		</div>
+		<div id="back_btn">
+			<i class="material-icons">arrow_back</i>
+		</div>
+	</header>
+	<main>
+		<div id="comment">
+			<p>버스티켓을 충전합니다</p>
+			<p>충전할 티켓의 매수를 입력하세요</p>
+		</div>
+		<div id="ticket_num_input">
+			<input type="number" name="recharge_num" placeholder="0" id="input_ticket_num" class="en">
+			<div class="line"></div>
+		</div>
+		<div id="price_frame">
+			<div class="price_element">
+				<p class="price_small">장당</p>
+				<p class="price_big">500원</p>
+			</div>
+			<div class="price_element">
+				<p class="price_small">구매 매수</p>
+				<p class="price_big ticket_num">0</p>
+				<p class="price_small">장</p>
+			</div>
+			<div class="line" style="height: 0.2rem; width: 100%; margin-left: 1rem;"></div>
+			<div class="price_element" style="margin-top: 1rem;">
+				<p class="price_small">총 결제 금액</p>
+			</div>
+			<div class="price_element">
+				<p class="price_small">500\</p>
+				<p style="margin: 0 0.5rem;">X</p>
+				<p class="price_small ticket_num">0</p>
+				<p class="price_small">장</p>
+				<p class="price_big pay_num">0</p>
+				<p class="price_big" style="margin:0;">원</p>
+			</div>
+		</div>
+	</main>
+	<footer>
+		<div id="pay_btn">
+			<p>결제하기</p>
+		</div>
+	</footer>
+	<div id="pay_prompt">
+		<div id="pay_prompt_frame">
+			<div id="pay_prompt_text">
+				<div id="pay_num_frame">
+					<p class="pay_num en">0</p>	
+					<p class="per">원</p>
+				</div>
+				<div id="pay_num_text">
+					<p>을 결제하시겠습니까?</p>
+				</div>
+			</div>
+			<div id="pay_prompt_btn">
+				<div id="ok">
+					<i class="material-icons">check</i>
+				</div>
+				<div id="cancel">
+					<i class="material-icons">close</i>
+				</div>
+			</div>
+		</div>
+		<div id="pay_result_frame">
+			<div>
+				<p class="ticket_num">0</p>
+			<p class="per">장</p>
+			<p class="result_text">결제 되었습니다</p>	
+			</div>
+			
+		</div>
+	</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="contents/js/pay.js"></script>
+<script type="text/javascript" src="contents/js/urlParam.js"></script>
+</div>
+</body>
+</html>

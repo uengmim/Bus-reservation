@@ -1,0 +1,45 @@
+@font-face {
+	font-family: 'nanum';
+	src: url('nanumbarungothicultralight.ttf') format('truetype');
+	font-weight: 100;
+}
+@font-face {
+	font-family: 'nanum';
+	src: url('nanumbarungothicultralight.ttf') format('truetype');
+	font-weight: 200;
+}
+@font-face {
+	font-family: 'nanum';
+	src: url('nanumbarungothiclight.ttf') format('truetype');
+	font-weight: 300;
+}
+@font-face {
+	font-family: 'nanum';
+	src: url('nanumbarungothiclight.ttf') format('truetype');
+	font-weight: 400;
+}
+@font-face {
+	font-family: 'nanum';
+	src: url('nanumbarungothiclight.ttf') format('truetype');
+	font-weight: 500;
+}
+@font-face {
+	font-family: 'nanum';
+	src: url('nanumbarungothic.ttf') format('truetype');
+	font-weight: 600;
+}
+@font-face {
+	font-family: 'nanum';
+	src: url('nanumbarungothic.ttf') format('truetype');
+	font-weight: 700;
+}
+@font-face {
+	font-family: 'nanum';
+	src: url('nanumbarungothicbold.ttf') format('truetype');
+	font-weight: 800;
+}
+@font-face {
+	font-family: 'nanum';
+	src: url('nanumbarungothicbold.ttf') format('truetype');
+	font-weight: 900;
+}

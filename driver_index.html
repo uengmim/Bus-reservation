@@ -1,0 +1,130 @@
+<html>
+  <head>
+    <title>BUS STOP</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- icon -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <!-- Style -->
+    <link rel="stylesheet" type="text/css" href="contents/css/default.css" />
+    <link rel="stylesheet" type="text/css" href="contents/css/bus_index.css" />
+    <link rel="stylesheet" type="text/css" href="contents/css/prompt.css" />
+    <link rel="stylesheet" type="text/css" href="contents/css/menu.css" />
+    <link rel="stylesheet" type="text/css" href="contents/css/loader.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="contents/css/driver_index.css"
+    />
+
+    <!-- Font -->
+    <link rel="stylesheet" type="text/css" href="contents/font/Nanum.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="contents/font/Montserrat.css"
+    />
+  </head>
+  <body>
+    <div id="wrapper">
+      <nav id="menu_wrapper">
+        <ul id="menu">
+          <li id="menu_mod">
+            <i class="material-icons">person</i>
+            <p>내정보 수정</p>
+          </li>
+          <li id="menu_logout">
+            <i class="material-icons">lock_open</i>
+            <p>로그아웃</p>
+          </li>
+        </ul>
+        <div id="menu_blank"></div>
+      </nav>
+      <header>
+        <div id="logo">
+          <i class="material-icons">directions_bus</i>
+          <p class="en">BUS STOP</p>
+        </div>
+        <div id="menu_tap">
+          <i class="material-icons">menu</i>
+        </div>
+      </header>
+      <!-- Login User -->
+      <div id="login_info">
+        <p id="login_name">...</p>
+        <p id="ment">님 환영합니다.</p>
+      </div>
+      <main>
+        <div id="qr">
+          <p class="cate_name en">MY TICKET</p>
+          <div id="qr_wrapper">
+            <!-- QR IMAGE -->
+            <div id="qr_image_frame">
+              <img src="contents/img/Camera.jpg" />
+            </div>
+            <!-- Service Frame -->
+            <ul id="qr_service_frame">
+              <li class="drive_fram" id="ticket_num_frame">
+                <div>
+                  <p id="ticket_num">운행<br />시작</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div id="service">
+          <p class="cate_name en">BUS WAITING</p>
+          <div id="service_wrapper">
+            <!-- 대기인원 표시 -->
+            <div id="waiting_num_frame">
+              <div
+                class="loader"
+                id="waiting_loader"
+                style="display: none; opacity: 0"
+              ></div>
+              <p>현재 대기인원</p>
+              <div id="waiting_num_position">
+                <p id="waiting_num" class="en waiting_count">28</p>
+              </div>
+            </div>
+            <ul id="reservation_frame">
+              <!-- 대기인원 새로고침 -->
+              <li id="waiting_refresh">
+                <i class="material-icons">refresh</i>
+              </li>
+              <!-- 예약버튼 -->
+            </ul>
+          </div>
+        </div>
+        <div id="notice">
+          <p class="cate_name en">NOTICE</p>
+          <div id="notice_frame">
+            <p>[공지]티켓결제 시스템 임시점검</p>
+          </div>
+        </div>
+      </main>
+
+      <!-- Reservation prompt -->
+      <div id="reservation_prompt" style="display: none">
+        <div class="prompt" id="re_pr_frame" style="display: flex">
+          <div id="re_pr_ment">
+            <div>
+              <p id="re_pr_num" class="en">운행 시작</p>
+            </div>
+          </div>
+          <div id="re_pr_btn">
+            <i class="material-icons" id="re_ok">check</i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="contents/js/index2.js"></script>
+    <script type="text/javascript" src="contents/js/index.js"></script>
+    <script type="text/javascript" src="contents/js/urlParam.js"></script>
+  </body>
+  <whale-quicksearch translate="no"></whale-quicksearch>
+</html>
