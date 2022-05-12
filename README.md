@@ -30,3 +30,5 @@ Query, Prepared, Trigger, Proceduer 선언 및 전달 파라미터 및 리턴 �
 ![db1](https://user-images.githubusercontent.com/72143238/167990831-69c69f02-e850-4def-afe9-43d8c583c10b.JPG)
 ![db2](https://user-images.githubusercontent.com/72143238/167990835-9e9be62c-96d8-4372-8fe8-7bc7bb1e4b3a.JPG)
 ![db3](https://user-images.githubusercontent.com/72143238/167990838-1e0e8ee5-cb26-4e41-acbe-cd262021d7dd.JPG)
+
+https://user-images.githubusercontent.com/72143238/167992825-887b05a4-1ca0-4dc9-a878-899ee66b05bb.mp4
