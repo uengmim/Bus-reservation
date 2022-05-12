@@ -8,14 +8,14 @@
 1. 버스 배차의 효율성을 높일 수 있는 앱
 2. 종이 표 대신 모바일로 표를 구매할 수 있는 앱
 
-### Back
+## Back
 **Apache + JAVA + Sevlet + JSP**<br>
 기능별 Async 또는 View 리턴, 자료흐름 파악 필요.
 
-### Front
+## Front
 **HTML + CSS + JS**<br>
 필요한 UI 및 페이지 필요, 화면 전환 및 기능 작동에 있어 상황별 UI 필요.
 
-### Database
+## Database
 **MYSQL**<br>
 Query, Prepared, Trigger, Proceduer 선언 및 전달 파라미터 및 리턴 명확히 설정하기.
